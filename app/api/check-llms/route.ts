@@ -1,7 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server';
 import FirecrawlApp from '@mendable/firecrawl-js';
 
-export const runtime = 'nodejs';
+export const runtime = 'edge';
 
 const firecrawl = new FirecrawlApp({
   apiKey: process.env.FIRECRAWL_API_KEY!
