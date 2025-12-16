@@ -3,3 +3,7 @@ name = "ai-ready-website"
 compatibility_date = "2024-07-29"
 compatibility_flags = ["nodejs_compat"]
 pages_build_output_dir = ".vercel/output/static"
+
+[vars]
+OPENAI_API_KEY="fc-ab0f7d1a0036425cb045a9746e97ada0"
+FIRECRAWL_API_KEY="your_firecrawl_api_key"
